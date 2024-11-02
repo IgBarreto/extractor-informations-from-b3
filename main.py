@@ -1,19 +1,16 @@
 import importlib
-from io import StringIO
-from pprint import pprint
 from time import sleep
 
-# import constants
-import pandas as pd
-
 # from plyer import notification
-from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
+
+# import constants
+# import pandas as pd
+
 
 CONSTANTS = {
     'URL': 'https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/empresas-listadas.htm',  # noqa
